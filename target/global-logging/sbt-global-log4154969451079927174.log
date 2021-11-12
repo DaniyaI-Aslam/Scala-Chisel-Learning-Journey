@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: initialized: JsonRpcNotificationMessage(2.0, initialized, {})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: textDocument/didOpen: JsonRpcNotificationMessage(2.0, textDocument/didOpen, {"textDocument":{"uri":"file:///c%3A/Users/daniy/Downloads/Scala-Chisel-Learning-Journey-main/Scala-Chisel-Learning-Journey-main/src/test/scala/practice/lab7test.scala","languageId":"scala","version":1,"text":"package practice\r\nimport org.scalatest._\r\nimport chiseltest._\r\nimport chisel3._\r\nclass lab7Test extends FreeSpec with ChiselScalatestTester{\r\n    \"lab7 ke liye\" in  {\r\n        test (new Detect_Seq){c=>\r\n        c.io.in.poke(1.B)\r\n        c.clock.step(20)}}}"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (C:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\target\scala-2.12\zinc\inc_compile_2.12.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed Oct 31, 2021, 8:11:54 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Done"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨1, shutdown, null})[0m

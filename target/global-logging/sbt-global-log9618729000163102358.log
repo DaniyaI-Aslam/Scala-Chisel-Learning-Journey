@@ -1,0 +1,79 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(01589609-653a-4a42-9307-0facd1320d49), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"153","parents":[]},"eventTime":1636658959612,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/lab1/UpDownCounter.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/lab2/task1.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/lab2/task2.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/lab1/ex2.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/gcd/GCD.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/lab1/ex3.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/lab2/ex2.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/lab1/ex1.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/gcd/DecoupledGCD.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/lab7/Ex1.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/lab2/ex1.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/main/scala/lab2/ex3.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"153","parents":[]},"eventTime":1636658959625,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Compile"},"errors":0,"warnings":0,"time":13}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"154","parents":[]},"eventTime":1636658959634,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/lab7/Ex1Test.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/lab1/UpDownCounterTest.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/lab2/task2test.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/lab2/ex2test.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/lab1/ex3test.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/lab2/ex3test.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/lab2/task1test.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/lab1/ex1test.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/lab2/ex1test.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/gcd/GCDSpec.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/daniy/Desktop/chiselll/src/test/scala/lab1/ex2test.scala"},"buildTarget":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"154","parents":[]},"eventTime":1636658959645,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/daniy/Desktop/chiselll/#root/Test"},"errors":0,"warnings":0,"time":11}})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCountTest2:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- c ounter_up_down test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCountTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CounterTest test[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mCountTest:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- CounterTest test\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mCountTest2:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- c ounter_up_down test\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCountTest1:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mCountTest1:\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- CounterTest test[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- CounterTest test\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtask2test:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mtask2test:\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- some test[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- some test\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mex2test:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mex2test:\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- some test[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- some test\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMux_2to1_IO_test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Multiplexer[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mMux_2to1_IO_test:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- Multiplexer\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtask1test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- some test[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mtask1test:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- some test\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgen_counterTest:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mgen_counterTest:\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Ex 3[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- Ex 3\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mex3test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- some test[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mex3test:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- some test\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGCDSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Gcd should calculate proper greatest common denominator[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mGCDSpec:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- Gcd should calculate proper greatest common denominator\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 793 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 10[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 10, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 6 seconds, 793 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 10\u001b[0m\n\u001b[36mSuites: completed 10, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m"})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 7 s, completed Nov 12, 2021, 12:29:26 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨14, shutdown, null})[0m

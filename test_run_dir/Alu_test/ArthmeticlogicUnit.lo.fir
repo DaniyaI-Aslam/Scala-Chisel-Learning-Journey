@@ -1,0 +1,66 @@
+circuit ArthmeticlogicUnit :
+  module ArthmeticlogicUnit :
+    input clock : Clock
+    input reset : UInt<1>
+    input io_in_1 : UInt<32>
+    input io_in_2 : UInt<32>
+    input io_select : UInt<5>
+    output io_output : UInt<32>
+    output io_out2 : UInt<1>
+
+    node _T = eq(UInt<1>("h0"), io_select) @[Conditional.scala 37:30]
+    node _io_output_T = add(io_in_1, io_in_2) @[ALU.scala 16:34]
+    node _io_output_T_1 = tail(_io_output_T, 1) @[ALU.scala 16:34]
+    node _T_1 = eq(UInt<1>("h1"), io_select) @[Conditional.scala 37:30]
+    node _io_output_T_2 = bits(io_in_2, 4, 0) @[ALU.scala 20:44]
+    node _io_output_T_3 = dshl(io_in_1, _io_output_T_2) @[ALU.scala 20:34]
+    node _T_2 = eq(UInt<2>("h2"), io_select) @[Conditional.scala 37:30]
+    node _T_3 = lt(io_in_1, io_in_2) @[ALU.scala 24:26]
+    node _GEN_0 = mux(_T_3, UInt<1>("h1"), UInt<1>("h0")) @[ALU.scala 24:36 ALU.scala 25:26 ALU.scala 27:26]
+    node _T_4 = eq(UInt<2>("h3"), io_select) @[Conditional.scala 37:30]
+    node _T_5 = lt(io_in_1, io_in_2) @[ALU.scala 33:26]
+    node _GEN_1 = mux(_T_5, UInt<1>("h1"), UInt<1>("h0")) @[ALU.scala 33:36 ALU.scala 34:26 ALU.scala 36:26]
+    node _T_6 = eq(UInt<3>("h4"), io_select) @[Conditional.scala 37:30]
+    node _io_output_T_4 = xor(io_in_1, io_in_2) @[ALU.scala 41:31]
+    node _T_7 = eq(UInt<3>("h5"), io_select) @[Conditional.scala 37:30]
+    node _io_output_T_5 = bits(io_in_2, 4, 0) @[ALU.scala 45:42]
+    node _io_output_T_6 = dshr(io_in_1, _io_output_T_5) @[ALU.scala 45:32]
+    node _T_8 = eq(UInt<3>("h6"), io_select) @[Conditional.scala 37:30]
+    node _io_output_T_7 = or(io_in_1, io_in_2) @[ALU.scala 49:32]
+    node _T_9 = eq(UInt<3>("h7"), io_select) @[Conditional.scala 37:30]
+    node _io_output_T_8 = and(io_in_1, io_in_2) @[ALU.scala 54:32]
+    node _T_10 = eq(UInt<4>("h8"), io_select) @[Conditional.scala 37:30]
+    node _io_output_T_9 = sub(io_in_1, io_in_2) @[ALU.scala 58:32]
+    node _io_output_T_10 = tail(_io_output_T_9, 1) @[ALU.scala 58:32]
+    node _T_11 = eq(UInt<5>("h10"), io_select) @[Conditional.scala 37:30]
+    node _T_12 = eq(io_in_1, io_in_2) @[ALU.scala 70:26]
+    node _GEN_2 = mux(_T_12, UInt<1>("h1"), UInt<1>("h0")) @[ALU.scala 70:38 ALU.scala 71:26 ALU.scala 73:26]
+    node _T_13 = eq(UInt<5>("h11"), io_select) @[Conditional.scala 37:30]
+    node _T_14 = neq(io_in_1, io_in_2) @[ALU.scala 78:26]
+    node _GEN_3 = mux(_T_14, UInt<1>("h1"), UInt<1>("h0")) @[ALU.scala 78:38 ALU.scala 79:26 ALU.scala 81:26]
+    node _T_15 = eq(UInt<5>("h15"), io_select) @[Conditional.scala 37:30]
+    node _T_16 = geq(io_in_1, io_in_2) @[ALU.scala 86:26]
+    node _GEN_4 = mux(_T_16, UInt<1>("h1"), UInt<1>("h0")) @[ALU.scala 86:37 ALU.scala 87:26 ALU.scala 89:26]
+    node _T_17 = eq(UInt<5>("h14"), io_select) @[Conditional.scala 37:30]
+    node _T_18 = lt(io_in_1, io_in_2) @[ALU.scala 94:26]
+    node _GEN_5 = mux(_T_18, UInt<1>("h1"), UInt<1>("h0")) @[ALU.scala 94:36 ALU.scala 95:26 ALU.scala 97:26]
+    node _GEN_6 = mux(_T_17, _GEN_5, UInt<1>("h0")) @[Conditional.scala 39:67 ALU.scala 13:15]
+    node _GEN_7 = mux(_T_15, _GEN_4, _GEN_6) @[Conditional.scala 39:67]
+    node _GEN_8 = mux(_T_13, _GEN_3, _GEN_7) @[Conditional.scala 39:67]
+    node _GEN_9 = mux(_T_11, _GEN_2, _GEN_8) @[Conditional.scala 39:67]
+    node _GEN_10 = mux(_T_10, _io_output_T_10, _GEN_9) @[Conditional.scala 39:67 ALU.scala 58:22]
+    node _GEN_11 = mux(_T_9, _io_output_T_8, _GEN_10) @[Conditional.scala 39:67 ALU.scala 54:22]
+    node _GEN_12 = mux(_T_8, _io_output_T_7, _GEN_11) @[Conditional.scala 39:67 ALU.scala 49:22]
+    node _GEN_13 = mux(_T_7, _io_output_T_6, _GEN_12) @[Conditional.scala 39:67 ALU.scala 45:22]
+    node _GEN_14 = mux(_T_6, _io_output_T_4, _GEN_13) @[Conditional.scala 39:67 ALU.scala 41:22]
+    node _GEN_15 = mux(_T_4, _GEN_1, _GEN_14) @[Conditional.scala 39:67]
+    node _GEN_16 = mux(_T_2, _GEN_0, _GEN_15) @[Conditional.scala 39:67]
+    node _GEN_17 = mux(_T_1, _io_output_T_3, _GEN_16) @[Conditional.scala 39:67 ALU.scala 20:23]
+    node _GEN_18 = mux(_T, _io_output_T_1, _GEN_17) @[Conditional.scala 40:58 ALU.scala 16:23]
+    node _T_19 = eq(io_output, UInt<1>("h1")) @[ALU.scala 102:21]
+    node _T_20 = bits(io_select, 4, 3) @[ALU.scala 102:40]
+    node _T_21 = eq(_T_20, UInt<2>("h2")) @[ALU.scala 102:46]
+    node _T_22 = and(_T_19, _T_21) @[ALU.scala 102:29]
+    node _GEN_19 = mux(_T_22, UInt<1>("h1"), UInt<1>("h0")) @[ALU.scala 102:58 ALU.scala 103:17 ALU.scala 105:17]
+    io_output <= bits(_GEN_18, 31, 0)
+    io_out2 <= _GEN_19

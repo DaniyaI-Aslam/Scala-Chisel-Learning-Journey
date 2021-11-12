@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly practice.lab5test -- -DwriteVcd=1, Some(d37f8a29-91c7-4523-bdd3-42b98fd6f2a6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\target\scala-2.12\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mlab5test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Mazak *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.IndexOutOfBoundsException: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Vector.checkRangeConvert(Vector.scala:131)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Vector.apply(Vector.scala:122)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.Vec.apply(Aggregate.scala:271)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at practice.lab5test.$anonfun$new$4(lab5test.scala:71)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at practice.lab5test.$anonfun$new$4$adapted(lab5test.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.backends.treadle.TreadleBackend.$anonfun$run$1(TreadleBackend.scala:152)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:507)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.backends.treadle.TreadleBackend.doTimescope(TreadleBackend.scala:109)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:507)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.run(Thread.java:833)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 586 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	practice.lab5test[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Oct 27, 2021, 4:23:38 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

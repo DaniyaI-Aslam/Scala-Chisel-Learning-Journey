@@ -1,0 +1,45 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly practice.TestALU -- -DwriteVcd=1, Some(c12b26ab-1908-4a8b-be4c-8fbb06615151), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\target\scala-2.12\test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:14:24: not found: value ALU_BEQ[0m
+[0m[[0m[31merror[0m] [0m[0mval array_op = Array ( ALU_BEQ , ALU_BGEU , ALU_BLTU , ALU_BLT ,[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:14:34: not found: value ALU_BGEU[0m
+[0m[[0m[31merror[0m] [0m[0mval array_op = Array ( ALU_BEQ , ALU_BGEU , ALU_BLTU , ALU_BLT ,[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:14:45: not found: value ALU_BLTU[0m
+[0m[[0m[31merror[0m] [0m[0mval array_op = Array ( ALU_BEQ , ALU_BGEU , ALU_BLTU , ALU_BLT ,[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:14:56: not found: value ALU_BLT[0m
+[0m[[0m[31merror[0m] [0m[0mval array_op = Array ( ALU_BEQ , ALU_BGEU , ALU_BLTU , ALU_BLT ,[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:15:1: not found: value ALU_BNE[0m
+[0m[[0m[31merror[0m] [0m[0mALU_BNE ,  ALU_BGE  )[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:15:12: not found: value ALU_BGE[0m
+[0m[[0m[31merror[0m] [0m[0mALU_BNE ,  ALU_BGE  )[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:24:6: not found: value ALU_BEQ[0m
+[0m[[0m[31merror[0m] [0m[0mcase ALU_BEQ => if ( src_a === src_b ) 1 else 0[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:25:6: not found: value ALU_BGEU[0m
+[0m[[0m[31merror[0m] [0m[0mcase ALU_BGEU => if ( src_a > src_b ) 1 else 0[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:26:6: not found: value ALU_BLTU[0m
+[0m[[0m[31merror[0m] [0m[0mcase ALU_BLTU => if ( src_a < src_b ) 1 else 0[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:27:6: not found: value ALU_BLT[0m
+[0m[[0m[31merror[0m] [0m[0mcase ALU_BLT => if ( src_a < src_b ) 1 else 0[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:28:6: not found: value ALU_BNE[0m
+[0m[[0m[31merror[0m] [0m[0mcase ALU_BNE => if ( src_a === src_b ) 0 else 1[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\src\test\scala\practice\buggedAlutest.scala:29:6: not found: value ALU_BGE[0m
+[0m[[0m[31merror[0m] [0m[0mcase ALU_BGE => if ( src_a > src_b ) 1 else 0[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m12 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Oct 26, 2021, 9:53:53 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

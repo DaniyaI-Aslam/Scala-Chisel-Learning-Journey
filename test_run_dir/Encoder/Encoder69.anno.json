@@ -1,0 +1,32 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir\\Encoder\\Encoder69.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Encoder69|Encoder69>io_out1",
+    "sources":[
+      "~Encoder69|Encoder69>io_in0",
+      "~Encoder69|Encoder69>io_in1",
+      "~Encoder69|Encoder69>io_sel1"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Encoder69|Encoder69>io_out2",
+    "sources":[
+      "~Encoder69|Encoder69>io_in2",
+      "~Encoder69|Encoder69>io_in3",
+      "~Encoder69|Encoder69>io_sel1"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir\\Encoder"
+  }
+]

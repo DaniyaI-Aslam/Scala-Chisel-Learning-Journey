@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly practice.lab6test -- -DwriteVcd=1, Some(78d786d3-b416-4613-bb19-1842e24c7046), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\target\scala-2.12\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\daniy\Downloads\Scala-Chisel-Learning-Journey-main\Scala-Chisel-Learning-Journey-main\target\scala-2.12\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mlab6test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lab6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 701 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 3 s, completed Oct 27, 2021, 10:14:41 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

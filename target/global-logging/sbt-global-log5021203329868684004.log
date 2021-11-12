@@ -1,0 +1,197 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(6548c4df-ac2f-47d8-b375-e940cb7d0b3d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to C:\Users\daniy\Desktop\chiselll\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3 . _[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:3:46: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass Counter ( counterBits : UInt ) extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:3:31: not found: type UInt[0m
+[0m[[0m[31merror[0m] [0m[0mclass Counter ( counterBits : UInt ) extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:4:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO ( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:4:23: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO ( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:5:18: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val result = Output ( Bool () )[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:5:27: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val result = Output ( Bool () )[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:7:18: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val max = (1.U << counterBits ) - 1.U[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:7:41: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val max = (1.U << counterBits ) - 1.U[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:8:17: not found: value RegInit[0m
+[0m[[0m[31merror[0m] [0m[0m    val count = RegInit (0.U (16.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:8:28: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val count = RegInit (0.U (16.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:8:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val count = RegInit (0.U (16.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ResetCounter.scala:9:5: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m    when ( count(15.U) === (1.U) ) {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3 . _[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:3:53: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass Signed_Counter ( counterBits : UInt ) extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:3:38: not found: type UInt[0m
+[0m[[0m[31merror[0m] [0m[0mclass Signed_Counter ( counterBits : UInt ) extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:4:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO ( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:4:23: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO ( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:5:18: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val result = Output ( Bool () )[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:5:27: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val result = Output ( Bool () )[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:7:19: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val max1 = (1.U << counterBits ) - 1.U[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:7:42: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val max1 = (1.U << counterBits ) - 1.U[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:9:17: not found: value RegInit[0m
+[0m[[0m[31merror[0m] [0m[0m    val count = RegInit (0.S (16.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:9:28: value S is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val count = RegInit (0.S (16.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:9:34: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val count = RegInit (0.S (16.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\SignedCounter.scala:11:5: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m    when ( count === max ) {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3 . _[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:3:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3 . util . _[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:5:39: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass counter_up_down(n:Int ) extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:6:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO ( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:6:23: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO ( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:7:19: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val data_in = Input ( UInt( n.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:7:27: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val data_in = Input ( UInt( n.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:7:35: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val data_in = Input ( UInt( n.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:8:18: not found: value Input[0m
+[0m[[0m[31merror[0m] [0m[0m    val reload = Input ( Bool() )[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:8:26: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m    val reload = Input ( Bool() )[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:9:15: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val out = Output (UInt())[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:9:23: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val out = Output (UInt())[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:10:16: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m    val out2 = Output(UInt())[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:10:23: not found: value UInt[0m
+[0m[[0m[31merror[0m] [0m[0m    val out2 = Output(UInt())[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:13:19: not found: value RegInit[0m
+[0m[[0m[31merror[0m] [0m[0m    val counter = RegInit (0.U ( n.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:13:30: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val counter = RegInit (0.U ( n.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:13:36: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val counter = RegInit (0.U ( n.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:14:21: not found: value RegInit[0m
+[0m[[0m[31merror[0m] [0m[0m    val max_count = RegInit (6.U ( n.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:14:32: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val max_count = RegInit (6.U ( n.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:14:38: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val max_count = RegInit (6.U ( n.W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:15:16: not found: value RegInit[0m
+[0m[[0m[31merror[0m] [0m[0m    var flag = RegInit (0.U )[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:15:27: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    var flag = RegInit (0.U )[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:17:5: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m    when (counter === 0.U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:23:5: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m    when(counter =/= max_count-1.U && flag === 0.U){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\UpDownCounter.scala:31:9: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m        when(counter===0.U){[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:2:8: not found: object chisel3[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3 . _[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:4:60: illegal inheritance from final class Module[0m
+[0m[[0m[31merror[0m] [0m[0mclass gen_counter ( size : Int , maxValue : SInt ) extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:4:45: not found: type SInt[0m
+[0m[[0m[31merror[0m] [0m[0mclass gen_counter ( size : Int , maxValue : SInt ) extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:5:14: not found: value IO[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO ( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:5:23: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m    val io = IO ( new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:6:22: not found: value Output[0m
+[0m[[0m[31merror[0m] [0m[0m        val result = Output ( Bool () )[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:6:31: not found: value Bool[0m
+[0m[[0m[31merror[0m] [0m[0m        val result = Output ( Bool () )[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:9:38: not found: type SInt[0m
+[0m[[0m[31merror[0m] [0m[0m    def genCounter ( n : Int , max : SInt ) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:10:21: not found: value RegInit[0m
+[0m[[0m[31merror[0m] [0m[0m        val count = RegInit (0. U ( n . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:10:33: value U is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val count = RegInit (0. U ( n . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:10:41: value W is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val count = RegInit (0. U ( n . W ) )[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab1\ex3Counter.scala:12:9: not found: value when[0m
+[0m[[0m[31merror[0m] [0m[0m        when ( count === signed ) {[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m63 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Nov 11, 2021, 7:40:19 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

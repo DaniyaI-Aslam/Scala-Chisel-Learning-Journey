@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab2\ex1.scala:2:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab2\ex1.scala:4:8: not found: object chiseltest[0m
+[0m[[0m[31merror[0m] [0m[0mimport chiseltest._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab2\ex1.scala:6:32: not found: type FreeSpec[0m
+[0m[[0m[31merror[0m] [0m[0mclass Mux_2to1_IO_test extends FreeSpec with ChiselScalatestTester{[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab2\ex1.scala:6:46: not found: type ChiselScalatestTester[0m
+[0m[[0m[31merror[0m] [0m[0mclass Mux_2to1_IO_test extends FreeSpec with ChiselScalatestTester{[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab2\ex1.scala:7:19: value in is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "Multiplexer" in {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab2\ex1.scala:8:9: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new Mux_2to1()){c=>[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\daniy\Desktop\chiselll\src\main\scala\lab2\ex1.scala:8:18: not found: type Mux_2to1[0m
+[0m[[0m[31merror[0m] [0m[0m        test(new Mux_2to1()){c=>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

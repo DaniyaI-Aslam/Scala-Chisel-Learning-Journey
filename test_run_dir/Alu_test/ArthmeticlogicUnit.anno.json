@@ -1,0 +1,33 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir\\Alu_test\\ArthmeticlogicUnit.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ArthmeticlogicUnit|ArthmeticlogicUnit>io_out2",
+    "sources":[
+      "~ArthmeticlogicUnit|ArthmeticlogicUnit>io_output",
+      "~ArthmeticlogicUnit|ArthmeticlogicUnit>io_select",
+      "~ArthmeticlogicUnit|ArthmeticlogicUnit>io_in_1",
+      "~ArthmeticlogicUnit|ArthmeticlogicUnit>io_in_2"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ArthmeticlogicUnit|ArthmeticlogicUnit>io_output",
+    "sources":[
+      "~ArthmeticlogicUnit|ArthmeticlogicUnit>io_select",
+      "~ArthmeticlogicUnit|ArthmeticlogicUnit>io_in_1",
+      "~ArthmeticlogicUnit|ArthmeticlogicUnit>io_in_2"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir\\Alu_test"
+  }
+]
